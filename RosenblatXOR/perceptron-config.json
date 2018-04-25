@@ -1,0 +1,71 @@
+{
+  "neuralType": "Perceptron",
+  "neuralConfig": [
+    {
+      "neurons": [
+        {
+          "neuronType": "SNeuron"
+        },
+        {
+          "neuronType": "SNeuron"
+        }
+      ],
+      "neuralLayerType": "SNeuralLayer"
+    },
+    {
+      "neurons": [
+        {
+          "neuronType": "ANeuron",
+          "neuronParams": {
+            "inputsWeights": [
+              -1,
+              1
+            ],
+            "bias": 0,
+            "learningSpeed": 1
+          }
+        },
+        {
+          "neuronType": "ANeuron",
+          "neuronParams": {
+            "inputsWeights": [
+              1,
+              -1
+            ],
+            "bias": 0,
+            "learningSpeed": 1
+          }
+        },
+        {
+          "neuronType": "ANeuron",
+          "neuronParams": {
+            "inputsWeights": [
+              1,
+              1
+            ],
+            "bias": 0,
+            "learningSpeed": 1
+          }
+        }
+      ],
+      "neuralLayerType": "ANeuralLayer"
+    },
+    {
+      "neurons": [
+        {
+          "neuronType": "RNeuron",
+          "neuronParams": {
+            "inputsWeights": [
+              1,
+              1,
+              0
+            ],
+            "bias": 0,
+            "learningSpeed": 1
+          }
+        }
+      ],
+      "neuralLayerType": "RNeuralLayer"
+    }
+  ]
+}

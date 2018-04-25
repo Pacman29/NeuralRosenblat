@@ -1,0 +1,25 @@
+{
+  "name": "neuralnetwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "get-pixels": "^3.3.0",
+    "jimp": "^0.2.28",
+    "mz": "^2.7.0",
+    "png-js": "^0.1.1",
+    "sharp": "^0.20.1"
+  }
+}
